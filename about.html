@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <title>About us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheet/home.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CozyCove</title>
+    <link rel="stylesheet" href="stylesheet/home.css">
+    <link rel="stylesheet" href="stylesheet/login_signin.css">
+    <link rel="stylesheet" href="stylesheet/script.js">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website with Login & Registration Form</title>
+    <link rel="stylesheet" href="stylesheet/login_signin.css" />
+    <!-- Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+</head>
+<body>
+
+    <section id = 'header'>
+        <a href="#" id="logo">CozyCove</a>
+        <div>
+            <ul id ='navbar'>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class= "active" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                <!-- <li><a href="login_signin.html" class="login-btn"><i class="ph ph-user"></i> Log In</a></li> -->
+                <button class="button" id="form-open">Login</button>
+            </ul>
+        </div>
+    </section>
+    <!-- Home -->
+    <section class="home">
+        <div class="form_container">
+          <i class="uil uil-times form_close"></i>
+
+     <!-- Login From -->
+     <div class="form login_form">
+        <form action="#">
+          <h2>Login</h2>
+
+          <div class="input_box">
+            <input type="email" placeholder="Enter your email" required />
+            <i class="uil uil-envelope-alt email"></i>
+          </div>
+          <div class="input_box">
+            <input type="password" placeholder="Enter your password" required />
+            <i class="uil uil-lock password"></i>
+            <i class="uil uil-eye-slash pw_hide"></i>
+          </div>
+
+          <div class="option_field">
+            <span class="checkbox">
+              <input type="checkbox" id="check" />
+              <label for="check">Remember me</label>
+            </span>
+            <a href="#" class="forgot_pw">Forgot password?</a>
+          </div>
+
+          <button class="button">Login Now</button>
+
+          <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+        </form>
+      </div>
+
+      <!-- Signup From -->
+      <div class="form signup_form">
+        <form action="#">
+          <h2>Signup</h2>
+
+          <div class="input_box">
+            <input type="email" placeholder="Enter your email" required />
+            <i class="uil uil-envelope-alt email"></i>
+          </div>
+          <div class="input_box">
+            <input type="password" placeholder="Create password" required />
+            <i class="uil uil-lock password"></i>
+            <i class="uil uil-eye-slash pw_hide"></i>
+          </div>
+          <div class="input_box">
+            <input type="password" placeholder="Confirm password" required />
+            <i class="uil uil-lock password"></i>
+            <i class="uil uil-eye-slash pw_hide"></i>
+          </div>
+
+          <button class="button">Signup Now</button>
+
+          <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+        </form>
+      </div>
+
+
+    </div>
+  </section>
+
+<script src="stylesheet/script.js"></script>
+
+    <div class="responsive-container-block bigContainer">
+        <div class="responsive-container-block Container">
+          <img class="mainImg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/eaboutus1.svg">
+          <div class="allText aboveText">
+            <p class="text-blk headingText">
+              About US
+            </p>
+            <p class="text-blk subHeadingText">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <p class="text-blk description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum pulvinar ullamcorper suspendisse ac eget. Pellentesque tempus leo in ullamcorper quis vestibulum ligula elementum ut.
+            </p>
+            <button class="explore">
+              Explore
+            </button>
+          </div>
+        </div>
+        <div class="responsive-container-block Container bottomContainer">
+          <img class="mainImg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/xpraup2.svg">
+          <div class="allText bottomText">
+            <p class="text-blk headingText">
+              Our Vision
+            </p>
+            <p class="text-blk subHeadingText">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <p class="text-blk description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fermentum pulvinar ullamcorper suspendisse ac eget. Pellentesque tempus leo in ullamcorper quis vestibulum ligula elementum ut.
+            </p>
+            <button class="explore">
+              Explore
+            </button>
+          </div>
+        </div>
+      </div>    
+
+</body>
+</html>
